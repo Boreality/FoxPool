@@ -1,14 +1,23 @@
 {
-    "id": "b6c65be1-caf8-4280-92bc-dc368db6cc4b",
+    "id": "677e960b-9a61-4593-a079-c2173dae4a82",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wall",
+    "name": "obj_chick_bouncy",
     "eventList": [
-        
+        {
+            "id": "ca1582a0-148d-411e-b060-22bb9774a262",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "677e960b-9a61-4593-a079-c2173dae4a82"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "d48b3925-8630-48ff-ab10-5494879e776a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2b670557-2223-44af-a3c9-50727b192463",
+    "spriteId": "2efb0996-4f4f-4c0a-9732-0a6acc7bff0b",
     "visible": true
 }

@@ -1,7 +1,7 @@
 /// @desc
-if(obj_fox.still){
-	instance_activate_layer("Pool");
-}else{
-	instance_deactivate_layer("Pool");
-}
+//if(obj_fohsp.still){
+//	instance_activate_lavsper("Pool");
+//}else{
+//	instance_deactivate_lavsper("Pool");
+//}
 	

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2efb0996-4f4f-4c0a-9732-0a6acc7bff0b",
+            "Value": {
+                "id": "dfcf7425-23c0-4866-aefa-6c511b20ade0",
+                "resourcePath": "sprites\\spr_chick_bounce\\spr_chick_bounce.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d3ca3df-df5f-4969-b64c-d0f7b9fa4478",
             "Value": {
                 "id": "4c76c448-e5d6-47f9-96e6-b6984013c1bb",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "677e960b-9a61-4593-a079-c2173dae4a82",
+            "Value": {
+                "id": "86c0991c-6aed-4b9f-8919-6a28c32535e3",
+                "resourcePath": "objects\\obj_chick_bouncy\\obj_chick_bouncy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7f454f50-99e2-4049-83a9-7ee524e43693",
             "Value": {
                 "id": "cd715880-dda0-428b-be83-4d1b4e749e05",
@@ -178,7 +194,7 @@
             "Key": "8f82895b-9278-44f6-a354-e6d2db22be44",
             "Value": {
                 "id": "c3d7c120-a8a3-409d-9047-2ba86317a5c5",
-                "resourcePath": "sprites\\sprite3\\sprite3.yy",
+                "resourcePath": "sprites\\spr_chick\\spr_chick.yy",
                 "resourceType": "GMSprite"
             }
         },

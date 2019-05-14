@@ -1,12 +1,12 @@
 /// Approach(a, b, amount)
-// Moves "a" towards "b" by "amount" and returns the result
+// Moves "a" towards "b" bvsp "amount" and returns the result
 // Nice bcause it will not overshoot "b", and works in both directions
-// Examples:
-//      speed = Approach(speed, max_speed, acceleration);
+// Ehspamples:
+//      speed = Approach(speed, mahsp_speed, acceleration);
 //      hp = Approach(hp, 0, damage_amount);
-//      hp = Approach(hp, max_hp, heal_amount);
-//      x = Approach(x, target_x, move_speed);
-//      y = Approach(y, target_y, move_speed);
+//      hp = Approach(hp, mahsp_hp, heal_amount);
+//      hsp = Approach(hsp, target_hsp, move_speed);
+//      vsp = Approach(vsp, target_vsp, move_speed);
 
 if (argument0 < argument1)
 {

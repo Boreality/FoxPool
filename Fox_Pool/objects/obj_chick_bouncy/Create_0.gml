@@ -3,5 +3,4 @@
 // Inherit the parent event
 event_inherited();
 
-
-pool_hittable = true;
+chick_bounce_deliver_multiplier = 3; 
