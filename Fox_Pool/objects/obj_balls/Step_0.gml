@@ -1,6 +1,6 @@
 /// @desc
 
-#region//Pool hittable
+#region//Pool hittable THIS WHOLE REGION IS OBSOLETE
 if(pool_hittable){	
 	collider = collision_circle(x,y,25,obj_pool,true,true);	
 	if(collider != noone){
@@ -10,7 +10,8 @@ if(pool_hittable){
 			if(collider != noone){
 				var chsp = collider.hsp;
 				var cvsp = collider.vsp;
-	
+
+	            var cspeed = collider.speed;
 				#region old trig code. might use?
 				//figuring out sector
 				//if(chsp > 0) and (cvsp > 0){ //sector 1
@@ -56,9 +57,11 @@ if(pool_hittable){
 				//}
 				#endregion
 				//FAAAST
-				var spd = 0.1*(abs(chsp) + abs(cvsp));
-				vsp += lengthdir_y(spd,collider.direction);
-				hsp += lengthdir_x(spd,collider.direction);
+
+
+				//var spd = 0.1*(abs(chsp) + abs(cvsp));
+				//vsp += lengthdir_y(spd,collider.direction);
+				//hsp += lengthdir_x(spd,collider.direction);
 			}
 		}	
 	}	
@@ -67,53 +70,73 @@ if(pool_hittable){
 
 #region friction
 
-if(hsp != 0){	
-	hsp = Approach(hsp,0,0.1);
-}
-if(vsp != 0){
-	vsp = Approach(vsp,0,0.1);
-}
+//if(hsp != 0){
+//	hsp = Approach(hsp,0,0.1);
+//}
+//if(vsp != 0){
+//	vsp = Approach(vsp,0,0.1);
+//}
+
+if(speed != 0) speed = Approach(speed,0,0.1)
 
 
 #endregion
 
 #region animation swing
 
-//when still
-if(hsp==0)&&(vsp==0){
-	still = true;
-}else{
-	still = false;	
-	
-	//animation
-	image_angle+= abs(hsp+vsp)*2;
-	
+if(speed == 0){
+    still=true;
+}else(
+    still=false;
+    //animation
+    image_angle+= abs(hspeed+vspeed)*2;
 }
+
+
+
+//when still
+//if(hsp==0)&&(vsp==0){
+//	still = true;
+//}else{
+//	still = false;
+	
+//	//animation
+//	image_angle+= abs(hsp+vsp)*2;
+	
+//}
 #endregion
 
 
 ball_collider = collision_circle(x,y,(40),obj_balls,true,true);	
 if(ball_collider != noone) && (hitcheck){
-	hsp=-hsp*chick_bounce_recieve_multiplier;
-	vsp=-vsp*chick_bounce_recieve_multiplier;
+	speed=-speed*chick_bounce_recieve_multiplier;
 	with(ball_collider){
-		hsp=-other.hsp*other.chick_bounce_deliver_multiplier;
-		vsp=-other.vsp*other.chick_bounce_deliver_multiplier;
+		speed=-other.speed*other.chick_bounce_deliver_multiplier;
 	}
 	hitcheck = false;
 } else hitcheck = true;
 
 
 #region wall collision
+
 if(collision_wall_toggle){
-	if(place_meeting(x+hsp,y,obj_wall)){
-		hsp=-hsp;	
-	}
-	if(place_meeting(x,y+vsp,obj_wall)){
-		vsp=-vsp;	
-	}
+    if(place_meeting(x+hspeed,y,obj_wall))
+    	hspeed=-hspeed;
+   	}
+    if(place_meeting(x,y+vspeed,obj_wall)){
+        vspeed=-vspeed;
+    }
 }
+
+//if(collision_wall_toggle){
+//	if(place_meeting(x+hsp,y,obj_wall)){
+//		hsp=-hsp;
+//	}
+//	if(place_meeting(x,y+vsp,obj_wall)){
+//		vsp=-vsp;
+//	}
+//}
 #endregion
 
-x+=hsp;
-y+=vsp;
+//x+=hsp;
+//y+=vsp;
