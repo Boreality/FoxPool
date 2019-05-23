@@ -8,6 +8,9 @@ collider = noone;
 sector = 0;
 dir = 0;
 
+
+global.ball1 = noone;
+global.ball2 = noone;
 //determining vars
 
 pool_hittable = false;
