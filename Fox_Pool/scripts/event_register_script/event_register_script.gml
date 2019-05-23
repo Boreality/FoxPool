@@ -22,14 +22,13 @@ with(event_manager){
 	var listener_info;
 	
 	//add listener iD
-	listener_info = objID;
+	listener_info[0] = objID;
 	
 	//addrb scripts and arguments
 	var len = argument_count-2;
 	
-	var i = 0; 
-	repeat(len){
-		listener_info[i] = argument[i+2];
+	var i = 0; repeat(len){
+		listener_info[i+1] = argument[i+2];
 		i++;
 	}
 	
@@ -37,6 +36,7 @@ with(event_manager){
 	ds_list_add(listener_list, listener_info);
 	
 }
+
 
 
 
