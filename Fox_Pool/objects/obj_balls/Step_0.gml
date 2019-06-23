@@ -6,7 +6,7 @@ if(pool_hittable){
 	if(collider != noone){
 		if(collider.key_hit){
 			audio_play_sound(snd_pong,5,0);
-			event_fire(event.ballHits);
+			
 			//WITH VSP AND HSP
 			if(collider != noone){
 				var chsp = collider.hsp;

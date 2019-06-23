@@ -1,5 +1,6 @@
 ///// @desc
 key_hit = mouse_check_button_pressed(mb_left);
+
 //key_cancel = mouse_check_button_pressed(mb_right);
 
 

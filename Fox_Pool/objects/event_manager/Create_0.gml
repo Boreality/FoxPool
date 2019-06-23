@@ -6,7 +6,9 @@ enum event {
 	chickEaten,
 	stageEnds,
 	explosion,
-	turnEnds
+	turnEnds,
+	dialogue,
+	
 }
 
 

@@ -1,3 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
-event_register_script(event.ballHits,id,yelp_hit(),10);
+/// @desc
+
+// Inherit the parent event
+event_inherited();
+
+dialogue[0] = "Saw better\nin the\nGutter";
+dialogue[1] = "Woof\nWoof";
+dialogue[2] = "Thanks for\nbashing my teeth\nin btw";
+text_color=c_red;

@@ -2,20 +2,20 @@
 ///@arg event
 ///@arg id
 ///@arg script
-///@arg arg1
+///@arg arg1...*
 
 with(event_manager){
 	var ev = argument[0];
 	var objID = argument[1];
 	
-	if(ds_map_exists(eventMap,ev)){
+	if(!ds_map_exists(eventMap,ev)){
 		//adding event to the event map
 		var listener_list = ds_list_create();
 		
 		//Add the listerner info to the ventmap
 		ds_map_add_list(eventMap, ev, listener_list);
 	} else {
-		var listener_list = eventMap[? ev];	
+		var listener_list = ds_map_find_value(eventMap, ev);
 	}
 	
 	//adding listener info
@@ -27,14 +27,14 @@ with(event_manager){
 	//addrb scripts and arguments
 	var len = argument_count-2;
 	
-	var i = 0; repeat(len){
+	var i = 0; 
+	repeat(len){
 		listener_info[i+1] = argument[i+2];
 		i++;
 	}
 	
 	//add listenrer info to the listerner list
 	ds_list_add(listener_list, listener_info);
-	
 }
 
 
