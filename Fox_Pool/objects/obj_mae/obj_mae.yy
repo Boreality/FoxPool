@@ -51,7 +51,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "7b8b963d-ca6b-407e-a75a-8d6eccd885de",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"mae_dialogue_new.csv\"",
+            "varName": "filename",
+            "varType": 2
+        },
+        {
+            "id": "2d0f9360-b283-476d-b5b4-7c3e7e40a4bd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FFB8325E",
+            "varName": "text_color",
+            "varType": 7
+        }
+    ],
     "solid": false,
     "spriteId": "6f99a83d-b543-4cbd-a0ec-921e1157e836",
     "visible": true

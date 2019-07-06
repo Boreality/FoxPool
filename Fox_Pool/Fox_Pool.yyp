@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "59919057-f317-4be3-86ad-ceed990eddd7",
+            "Value": {
+                "id": "ebe0f1a2-2660-4c3c-a4be-3cc0a14a3ddc",
+                "resourcePath": "fonts\\fnt_debug\\fnt_debug.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5b7884fb-0c44-4a3d-a793-ecb7e5e67835",
             "Value": {
                 "id": "3875664a-eb0e-4612-b515-39d40f89c6dc",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "b1ae39b9-e956-44f7-b1f4-3514e60f120d",
+            "Value": {
+                "id": "967e414e-00b4-4192-af35-5536440c494a",
+                "resourcePath": "datafiles_yy\\mae_dialogue_new.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "b3afe79f-f33c-476a-b628-ec76891d949d",
             "Value": {
                 "id": "d4dc9dad-2fed-4554-80e3-2ba1f6e1722c",
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "d3fac4f3-6f0d-453d-a3aa-ad996829350f",
+            "Value": {
+                "id": "482d1181-a370-4733-a3b6-d108f4ed27a5",
+                "resourcePath": "datafiles_yy\\test.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "d431ff8c-c0af-435c-9d52-4e7c912874f6",
             "Value": {
                 "id": "9a3f759d-f61a-4e24-b728-0ee5d6164115",
@@ -487,6 +511,22 @@
             }
         },
         {
+            "Key": "e7722870-c3c2-8167-0f08-ac59e59add8d",
+            "Value": {
+                "id": "a9c11eea-1eba-4448-ac5d-68e2bbed5719",
+                "resourcePath": "scripts\\csv_to_grid\\csv_to_grid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ee0d177e-2380-822e-9ada-50d9992b1aee",
+            "Value": {
+                "id": "f831f17e-1de1-f7b0-6049-608eb95bd687",
+                "resourcePath": "objects\\obj_conversation\\obj_conversation.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f00fd4af-b898-4e88-977a-1eb40d7fc913",
             "Value": {
                 "id": "684bc1d8-3ebb-4e64-9c8c-e51aae9dc373",
@@ -500,6 +540,14 @@
                 "id": "69ee12d7-5c6c-4a5f-9147-d6a182692be5",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa4a959a-4fba-4097-8fdf-cef93b89515e",
+            "Value": {
+                "id": "a0f6a032-4c2f-4f3d-b643-863ccba165fb",
+                "resourcePath": "datafiles_yy\\ryan_dialogue_new.csv.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -519,7 +567,8 @@
         "9f14e507-ac5d-4655-bef5-83c4bc55a74c",
         "53f6dd51-5d8e-4460-a85c-12bb14b1fc1d",
         "92ddba27-cdc5-4fb6-b5b6-f0cb77ea2468",
-        "39d5caf4-32e0-4336-85bb-7dad1c783061"
+        "39d5caf4-32e0-4336-85bb-7dad1c783061",
+        "e7722870-c3c2-8167-0f08-ac59e59add8d"
     ],
     "tutorial": ""
 }
