@@ -9,3 +9,4 @@ h=0;
 border=10;
 text_timer = 2*room_speed;
 text_color = c_white;
+owner=0;

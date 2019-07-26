@@ -23,16 +23,6 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "f00fd4af-b898-4e88-977a-1eb40d7fc913"
-        },
-        {
-            "id": "d9eaebb3-aeb4-4160-945a-1a0c5300707a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "f00fd4af-b898-4e88-977a-1eb40d7fc913"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -62,8 +52,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"mae_dialogue_new.csv\"",
-            "varName": "filename",
+            "value": "\"mae_dialogue_hit.csv\"",
+            "varName": "hit_filename",
             "varType": 2
         },
         {
@@ -79,6 +69,20 @@
             "value": "$FFB8325E",
             "varName": "text_color",
             "varType": 7
+        },
+        {
+            "id": "62a23484-8b39-4638-859e-d37309b4e597",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"mae_dialogue_speed.csv\"",
+            "varName": "speed_filename",
+            "varType": 2
         }
     ],
     "solid": false,

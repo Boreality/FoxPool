@@ -6,6 +6,8 @@ if(pool_hittable){
 	if(collider != noone){
 		if(collider.key_hit){
 			audio_play_sound(snd_pong,5,0);
+			event_fire(event.hit);
+			
 			
 			//WITH VSP AND HSP
 			if(collider != noone){
@@ -120,3 +122,5 @@ vsp = clamp(vsp,-30,30);
 
 x+=hsp;
 y+=vsp;
+
+if(hsp > 25) or (vsp > 25) event_fire(event.speed);

@@ -1,9 +1,12 @@
 /// @desc
-event_register_script(event.dialogue,id,make_dialogue);
-
+//event_register_script(event.dialogue,id,make_dialogue);
+event_register_script(event.hit,id,event_load_dialogue,100,hit_filename,id);
+event_register_script(event.speed,id,event_load_dialogue,100,speed_filename,id);
 
 dialogue_timer_max=2*room_speed;
 dialogue_timer=dialogue_timer_max;
+
+
 
 dialogue_num =0;
 
@@ -21,6 +24,10 @@ idle_check=true;
 moving_check=true;
 conversation_check=true;
 
+event_dialogue = 0;
+
+textbox=noone;
+
 
 //Getting Dialogue
 //10 unique random quips
@@ -29,11 +36,5 @@ conversation_check=true;
 //5 quips for how fast shits going
 
 
-dialogue[0]="";
-dia_temp = csv_to_grid(filename,true);
-for(var i =0;i<ds_grid_height(dia_temp);i++){
-		dialogue[i] = ds_grid_get(dia_temp,0,i);
-}
-ds_grid_destroy(dia_temp);
 
 //Now have full dialogue 

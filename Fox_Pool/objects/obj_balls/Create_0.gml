@@ -11,6 +11,7 @@ dir = 0;
 
 global.ball1 = noone;
 global.ball2 = noone;
+global.advance_dialogue = false;
 //determining vars
 
 pool_hittable = false;

@@ -23,7 +23,7 @@
             "mvc": "1.0",
             "objectId": "f00fd4af-b898-4e88-977a-1eb40d7fc913",
             "propertyId": "7b8b963d-ca6b-407e-a75a-8d6eccd885de",
-            "value": "\"ryan_dialogue_new.csv\""
+            "value": "\"ryan_dialogue_hit.csv\""
         },
         {
             "id": "b888ca96-f97a-47ed-aa79-5a767b6b7b8a",
@@ -32,6 +32,14 @@
             "objectId": "f00fd4af-b898-4e88-977a-1eb40d7fc913",
             "propertyId": "2d0f9360-b283-476d-b5b4-7c3e7e40a4bd",
             "value": "$FF0044CC"
+        },
+        {
+            "id": "89718eb1-58c9-46a3-8230-9740d324b7fa",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "f00fd4af-b898-4e88-977a-1eb40d7fc913",
+            "propertyId": "62a23484-8b39-4638-859e-d37309b4e597",
+            "value": "\"ryan_dialogue_speed.csv\""
         }
     ],
     "parentObjectId": "f00fd4af-b898-4e88-977a-1eb40d7fc913",
