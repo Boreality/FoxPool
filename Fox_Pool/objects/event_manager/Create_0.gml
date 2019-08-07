@@ -9,5 +9,3 @@ enum event {
 	hit,
 	conversation
 }
-
-

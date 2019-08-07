@@ -7,6 +7,7 @@ if(textbox == noone){
 		text_color = other.text_color;	
 		owner = other.id;
 		other.textbox=id;
+		
 	}
 }else{
 	instance_destroy(textbox);
@@ -17,5 +18,6 @@ if(textbox == noone){
 		text_color = other.text_color;	
 		owner = other.id;
 		other.textbox=id;
+		
 	}
 }

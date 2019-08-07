@@ -5,8 +5,8 @@ text_current = string_copy(text,1,floor(letters));
 draw_set_font(fnt_dialogue);
 if(h==0) h = string_height(text);
 w = string_width(text_current);
-//destroy when done
 
+//destroy when done
 var enable_text_timer = false;
 
 if(enable_text_timer){
@@ -22,3 +22,7 @@ if(keyboard_check(ord("E"))){
 	instance_destroy();	
 	owner.textbox=noone;
 }
+
+
+x = owner.x;
+y = owner.y-60;

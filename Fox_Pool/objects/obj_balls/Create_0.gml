@@ -7,13 +7,10 @@ still = true;
 collider = noone;
 sector = 0;
 dir = 0;
-
-
 global.ball1 = noone;
 global.ball2 = noone;
 global.advance_dialogue = false;
 //determining vars
-
 pool_hittable = false;
 chick_grav = false;
 chick_fox = false;
