@@ -6,5 +6,7 @@ if(alt_action){
 	if(song_counter>=array_length_1d(track)) song_counter=0;
 	//play next song on counter
 	audio_play_sound(track[song_counter],2,true);
+	//Sending that to the textscroll
+	obj_gui.scroll_text = track_name[song_counter];
 	alt_action=false;
 }

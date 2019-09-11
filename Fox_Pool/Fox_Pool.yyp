@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "53c418bc-b029-4497-8d95-7246a87b8aef",
+            "Value": {
+                "id": "fe4cece3-54d9-4e30-8bde-966aeb92ed04",
+                "resourcePath": "objects\\obj_dresser\\obj_dresser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "53f6dd51-5d8e-4460-a85c-12bb14b1fc1d",
             "Value": {
                 "id": "879d0378-feb3-4a92-8520-65aef2a3324b",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "652f5449-5113-40cb-8374-5fe37a80258a",
+            "Value": {
+                "id": "9fa0a684-5bae-4d53-abd4-68857dd6b8de",
+                "resourcePath": "sprites\\spr_dresser\\spr_dresser.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66d87b07-10f1-46c2-bd41-0e4a1cc113b0",
             "Value": {
                 "id": "fd0a2279-727c-4c2a-82c5-70a99bba84c1",
@@ -380,6 +396,22 @@
                 "id": "86c0991c-6aed-4b9f-8919-6a28c32535e3",
                 "resourcePath": "objects\\obj_chick_bouncy\\obj_chick_bouncy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e869516-bc11-404a-8214-c893ee37d736",
+            "Value": {
+                "id": "d5b973eb-86f5-478d-a92f-940fb0e5abd2",
+                "resourcePath": "sounds\\trk_drums\\trk_drums.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6f3b86a0-361d-4e62-89f7-814c07e25c02",
+            "Value": {
+                "id": "23c41ffd-6e05-40f4-8b69-7181de975bc9",
+                "resourcePath": "sounds\\trk_chill\\trk_chill.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -626,7 +658,7 @@
             "Key": "ae38417e-645b-42db-b5f8-562dbb23b5a2",
             "Value": {
                 "id": "af2d805b-5864-4e9c-982e-1fe85fdab176",
-                "resourcePath": "sprites\\sprite19\\sprite19.yy",
+                "resourcePath": "sprites\\spr_dark\\spr_dark.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -716,6 +748,14 @@
                 "id": "3fd7fad7-5f2a-4b87-978c-813b4bafe24b",
                 "resourcePath": "views\\c003ce14-ca54-4094-ad80-a58da312da41.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c121335e-bc92-46a0-b18d-66e1a80127cb",
+            "Value": {
+                "id": "af28cf9d-dd33-4089-a9ae-b02a3d402a0a",
+                "resourcePath": "timelines\\timeline0\\timeline0.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

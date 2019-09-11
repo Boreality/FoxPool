@@ -1,4 +1,5 @@
 draw_set_font(fnt_debug);
+
 draw_text(5,10,"Pool Test");
 if(instance_exists(obj_fox)){
 	draw_text(5,30,"dir: "+string(obj_fox.dir));
@@ -8,4 +9,6 @@ if(instance_exists(obj_fox)){
 	draw_text(5,110,"Cue y: " + string(obj_pool.y));
 }
 draw_text(5,130,"Event hit: "+ string(event_hit));
+
+//making text onto the thingy
 
